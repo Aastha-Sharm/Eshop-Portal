@@ -1,0 +1,107 @@
+*{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            background:linear-gradient(whitesmoke,white);
+            
+        }
+        .header{
+            display: flex;
+            flex-direction: row;
+            background-color: green;
+            height: 20px;
+            padding-top: 5px;
+        }
+        ul li{
+            display: inline;
+            text-align: center;
+              }
+        ul li a{
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            text-align: center;
+            padding: 2px 25px 2px 25px;
+            height: 15px;
+        }
+        .nav{
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+            height:20px;
+            align-items: center;
+            padding-bottom: 25px;
+            
+        }
+        ul li a:hover{
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 5px 30px 5px 30px;
+            background-color: #805f2a;
+            border-radius: 10px;
+        }
+        .hp{
+            min-height: 530px;
+            background:linear-gradient(whitesmoke,white);
+            
+        }
+        .hp input{
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .hp table{
+            align-self: center;
+            margin: 100px 250px 100px 510px;
+            background-color: azure;
+        }
+        .hp table td{
+            margin-left: 30px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .hp1{
+            display: flex;
+            flex-direction: row;
+            min-height: 530px;
+        }
+        .hp3{
+            display: flex;
+            flex-direction: row;
+            min-height: 530px;
+        }
+        .footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            height: 47px;
+            padding-top: 10px;
+        }
+        .row{
+            display: flex;
+            flex-direction: row;
+            min-height: 300px;
+            
+        }
+        .column{
+            width: 25%;
+            height: 200px; 
+            
+        }
+        .row1{
+            display: flex;
+            flex-direction: column;
+            min-height: 50px;
+            background-color: azure;
+        }
+        .datacolumn{
+            width: 100%;        
+        }
+        .product{
+            box-shadow: 1px 1px 4px gray;
+            margin: 5px ;
+        }
+        
